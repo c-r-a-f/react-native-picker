@@ -13,6 +13,7 @@ module.exports = {
   },
   plugins: ['react-hooks'],
   rules: {
+    'arrow-parens': 0,
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'error',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
